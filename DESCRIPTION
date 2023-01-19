@@ -3,7 +3,7 @@ Title: cageo: Geospatial data of Central America
 Version: 0.0.0.9000
 Authors@R: 
     person("Manuel", "Spínola", , "mspinola10@gmail.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           comment = c(ORCID = 0000-0002-7839-1908))
 Description: Contains geospatial data of Central America
 License: MIT + file LICENSE
 Encoding: UTF-8
