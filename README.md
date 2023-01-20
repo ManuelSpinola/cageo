@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# cageo \# crgeo <img src="man/figures/cageo_c.png" align="right" height="139" />
+# cageo <img src="man/figures/cageo_c.png" align="right" height="139" />
 
 <!-- badges: start -->
 <!-- badges: end -->

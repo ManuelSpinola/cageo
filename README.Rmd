@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# cageo # crgeo <img src="man/figures/cageo_c.png" align="right" height="139" />
+# cageo <img src="man/figures/cageo_c.png" align="right" height="139" />
 
 <!-- badges: start -->
 <!-- badges: end -->
