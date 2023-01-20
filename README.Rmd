@@ -33,11 +33,11 @@ devtools::install_github("ManuelSpinola/cageo")
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example}
+```{r example, message=FALSE, warning=FALSE}
+## basic example code
 library(cageo)
 library(tidyverse)
 library(sf)
-## basic example code
 ```
 
 ```{r cr_outline}
