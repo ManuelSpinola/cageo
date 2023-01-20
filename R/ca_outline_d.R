@@ -6,6 +6,6 @@
 #' 
 #' @format An sf object with the outline of Central America (EPSG:4326)
 #'
-#' @source \url{https://gadm.org/index.html}
+#' @source \url{https://www.naturalearthdata.com}
 #'
 "ca_outline_d"

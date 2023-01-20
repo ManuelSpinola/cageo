@@ -20,7 +20,7 @@ devtools::install_github("ManuelSpinola/cageo")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to use the package:
 
 ``` r
 ## basic example code
