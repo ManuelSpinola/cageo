@@ -1,12 +1,12 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# cageo <img src="man/figures/cageo_c.png" align="right" height="139" />
+# cageo <img src="man/figures/logo.png" align="right" height="139" />
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of cageo is to …
+The goal of cageo is to provide geospatial data for Costa Rica
 
 ## Installation
 
