@@ -8,6 +8,13 @@
 \description{
 Contains geospatial data of Central America
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://manuelspinola.github.io/cageo/}
+}
+
+}
 \author{
 \strong{Maintainer}: Manuel Spínola \email{mspinola10@gmail.com} (\href{https://orcid.org/-9749}{ORCID})
 

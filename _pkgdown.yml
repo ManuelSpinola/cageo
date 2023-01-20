@@ -2,5 +2,3 @@ url: https://manuelspinola.github.io/cageo/
 template:
   bootstrap: 5
 
-development:
-  mode: auto
