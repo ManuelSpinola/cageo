@@ -38,17 +38,25 @@ This is a basic example which shows you how to use the package:
 library(cageo)
 library(tidyverse)
 library(sf)
+library(stars)
 ```
 
-```{r cr_outline}
-ca_outline
-```
-
+# Datos vectoriales
 
 ```{r cr_mapa}
 ggplot(ca_outline) +
-  geom_sf() +
+  geom_sf(fill = "steelblue", color = "gray") +
   theme_minimal()
 ```
+
+# Datos raster
+
+```{r}
+ggplot() +
+  geom_stars(data = ca_elevation) +
+  scale_fill_viridis_c(name = "Altitud (m)", na.value = "transparent") +
+  theme_minimal()
+```
+
 
 

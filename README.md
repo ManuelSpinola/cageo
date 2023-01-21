@@ -27,29 +27,26 @@ This is a basic example which shows you how to use the package:
 library(cageo)
 library(tidyverse)
 library(sf)
+library(stars)
 ```
 
-``` r
-ca_outline
-#> Simple feature collection with 7 features and 1 field
-#> Geometry type: MULTIPOLYGON
-#> Dimension:     XY
-#> Bounding box:  xmin: -92.22236 ymin: 5.49857 xmax: -77.12928 ymax: 18.49666
-#> Geodetic CRS:  WGS 84
-#>       COUNTRY                           geom
-#> 1  Costa Rica MULTIPOLYGON (((-87.06877 5...
-#> 2      Panama MULTIPOLYGON (((-81.8018 7....
-#> 3   Guatemala MULTIPOLYGON (((-91.0107 13...
-#> 4 El Salvador MULTIPOLYGON (((-88.46264 1...
-#> 5    Honduras MULTIPOLYGON (((-87.72014 1...
-#> 6   Nicaragua MULTIPOLYGON (((-84.92993 1...
-#> 7      Belize MULTIPOLYGON (((-88.72097 1...
-```
+# Datos vectoriales
 
 ``` r
 ggplot(ca_outline) +
-  geom_sf() +
+  geom_sf(fill = "steelblue", color = "gray") +
   theme_minimal()
 ```
 
 <img src="man/figures/README-cr_mapa-1.png" width="100%" />
+
+# Datos raster
+
+``` r
+ggplot() +
+  geom_stars(data = ca_elevation) +
+  scale_fill_viridis_c(name = "Altitud (m)", na.value = "transparent") +
+  theme_minimal()
+```
+
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
