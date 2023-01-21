@@ -16,6 +16,12 @@
     <loc>https://manuelspinola.github.io/cageo/index.html</loc>
   </url>
   <url>
+    <loc>https://manuelspinola.github.io/cageo/reference/ca_bio.html</loc>
+  </url>
+  <url>
+    <loc>https://manuelspinola.github.io/cageo/reference/ca_elevation.html</loc>
+  </url>
+  <url>
     <loc>https://manuelspinola.github.io/cageo/reference/ca_outline.html</loc>
   </url>
   <url>
@@ -23,6 +29,24 @@
   </url>
   <url>
     <loc>https://manuelspinola.github.io/cageo/reference/ca_outline_d.html</loc>
+  </url>
+  <url>
+    <loc>https://manuelspinola.github.io/cageo/reference/ca_prec.html</loc>
+  </url>
+  <url>
+    <loc>https://manuelspinola.github.io/cageo/reference/ca_srad.html</loc>
+  </url>
+  <url>
+    <loc>https://manuelspinola.github.io/cageo/reference/ca_tavg.html</loc>
+  </url>
+  <url>
+    <loc>https://manuelspinola.github.io/cageo/reference/ca_tmax.html</loc>
+  </url>
+  <url>
+    <loc>https://manuelspinola.github.io/cageo/reference/ca_tmin.html</loc>
+  </url>
+  <url>
+    <loc>https://manuelspinola.github.io/cageo/reference/ca_wind.html</loc>
   </url>
   <url>
     <loc>https://manuelspinola.github.io/cageo/reference/cageo-package.html</loc>
