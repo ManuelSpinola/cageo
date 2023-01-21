@@ -8,7 +8,7 @@
 An sf object with the outline of countries of Central America (EPSG:4326)
 }
 \source{
-\url{https://gadm.org/index.html}
+\url{https://www.naturalearthdata.com}
 }
 \usage{
 ca_outline_c

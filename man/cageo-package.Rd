@@ -6,6 +6,8 @@
 \alias{cageo-package}
 \title{cageo: cageo: Geospatial data of Central America}
 \description{
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
 Contains geospatial data of Central America
 }
 \seealso{
