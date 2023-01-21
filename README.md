@@ -34,7 +34,7 @@ library(stars)
 
 ``` r
 ggplot(ca_outline) +
-  geom_sf(fill = "dodgerblue3", color = "gray") +
+  geom_sf(fill = "dodgerblue4", color = "gray") +
   theme_minimal()
 ```
 
