@@ -55,7 +55,8 @@ ggplot(ca_outline) +
 ggplot() +
   geom_stars(data = ca_elevation) +
   scale_fill_viridis_c(name = "Altitud (m)", na.value = "transparent") +
-  theme_minimal()
+  theme_minimal() +
+  coord_equal()
 ```
 
 
