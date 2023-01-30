@@ -1,0 +1,14 @@
+citHeader("To cite cageo in publications use:")
+
+citEntry(
+  entry    = "Manual",
+  title    = "cageo: Geospatial data of Central America",
+  author   = "Manuel Spínola",
+  note     = "R package version 0.1.0",
+  year     = "2023",
+  url      = "https://github.com/ManuelSpinola/cageo",
+  textVersion = paste("Manuel Spínola (2023).",
+                "crgeo: Geospatial data of Central America.",
+                "R package version 0.1.0.",
+                "Available at https://github.com/ManuelSpinola/cageo.")
+)
