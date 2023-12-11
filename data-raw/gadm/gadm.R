@@ -18,14 +18,16 @@ usethis::use_data(ca_outline, overwrite = TRUE)
 
 # outline of Central America only continent
 
-ca_outline_c <- ms_filter_islands(ca_outline, min_area = 1000000000)
+ca_outline_c <- ms_filter_islands(ca_outline, min_area = 1000000000) |>
+  dplyr::select(COUNTRY)
 
 usethis::use_data(ca_outline_c, overwrite = TRUE)
 
 # Central America dissolved
 
 ca_outline_d <- ca_outline_c |>
-  st_union()
+  st_union() |>
+  st_as_sf()
 
 usethis::use_data(ca_outline_d, overwrite = TRUE)
 
