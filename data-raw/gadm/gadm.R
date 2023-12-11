@@ -11,12 +11,8 @@ library(rmapshaper)
 
 ca_geodata <- gadm(c("CRI", "PAN", "GTM", "SLV", "HND", "NIC", "BLZ"), level = 0, path = "data-raw/gadm")
 
-ca_geodata_to_sf <- st_as_sf(ca_geodata) |>
+ca_outline <- st_as_sf(ca_geodata) |>
   dplyr::select(COUNTRY)
-
-st_write(ca_geodata_to_sf, "data-raw/gadm/ca_gadm41.gpkg", delete_layer = TRUE)
-
-ca_outline <- st_read("data-raw/gadm/ca_gadm41.gpkg")
 
 usethis::use_data(ca_outline, overwrite = TRUE)
 
